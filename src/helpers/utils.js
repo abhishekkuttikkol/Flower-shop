@@ -16,13 +16,7 @@ export const displayDate = (timestamp) => {
 };
 
 export const displayMoney = (n) => {
-  const format = new Intl.NumberFormat('fr-CM', {
-    style: 'currency',
-    currency: 'XAF'
-  });
-
-  // or use toLocaleString()
-  return format.format(n);
+  return n
 };
 
 export const calculateTotal = (arr) => {

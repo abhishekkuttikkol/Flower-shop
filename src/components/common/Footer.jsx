@@ -15,11 +15,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-col-1">
         <strong>
-          <span>
-            Contacts <br />
-            tel : +237 651 97 76 85 <br />
-            email : lunetas@yahoo.fr
-          </span>
+          
         </strong>
       </div>
       <div className="footer-col-2">

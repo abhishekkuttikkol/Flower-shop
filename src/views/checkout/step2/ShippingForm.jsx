@@ -73,7 +73,7 @@ const ShippingForm = () => {
                       &nbsp; Delivery Charges &nbsp;
                       <span className="text-subtle">1-2 days</span>
                     </h5>
-                    <h4 className="margin-0">2500FCFA</h4>
+                    <h4 className="margin-0">40₹</h4>
                   </label>
                 </div>
               </div>

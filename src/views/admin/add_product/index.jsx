@@ -38,7 +38,6 @@ const AddProduct = () => {
             maxQuantity: 0,
             description: '',
             keywords: [],
-            sizes: [],
             image: '',
             isFeatured: false,
             isRecommended: false,
