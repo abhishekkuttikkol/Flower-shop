@@ -14,9 +14,7 @@ import * as Yup from 'yup';
 
 // Default brand names that I used. You can use what you want
 const brandOptions = [
-  { value: 'Salt Maalat', label: 'Salt Maalat' },
-  { value: 'Betsin Maalat', label: 'Betsin Maalat' },
-  { value: 'Black Kibal', label: 'Black Kibal' }
+  
 ];
 
 const FormSchema = Yup.object().shape({
@@ -116,7 +114,7 @@ const ProductForm = ({ product, onSubmit, isLoading }) => {
                     options={brandOptions}
                     disabled={isLoading}
                     placeholder="Select/Create Brand"
-                    label="* Brand"
+                    label="* Type"
                   />
                 </div>
               </div>

@@ -29,7 +29,7 @@ const withCheckout = (Component) => withRouter((props) => {
         payment={state.payment}
         profile={state.profile}
         shipping={state.shipping}
-        subtotal={Number(subtotalz)}
+        subtotal={Number(subtotal)}
       />
     );
   }
