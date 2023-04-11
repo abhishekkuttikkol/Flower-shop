@@ -17,7 +17,7 @@ const Loader = () => (
 
 const UserAccount = () => {
   useScrollTop();
-  useDocumentTitle('My Account | Lunetas-cam');
+  useDocumentTitle('My Account | FLower Shop');
 
   return (
     <UserTab>
